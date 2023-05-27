@@ -15,7 +15,7 @@ const Footer = () => {
   
     <>
 
-    <h3>Contáctame</h3>
+    <h5>Mis Redes Sociales</h5>
 
     <BsFillTelephoneInboundFill>Phone</BsFillTelephoneInboundFill>
     <FiMail>E-mail</FiMail>

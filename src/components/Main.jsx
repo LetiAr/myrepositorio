@@ -4,22 +4,35 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
 
 
-const Main = () => {
 
+
+const Main = ({alumno}) => {
+  
+  console.log(alumno)
   return (
     <>
-     <div className='conteiner'>
-      <div className='div_main'>
-        <h2 className='h2_main'>Acerca de mi</h2>
-        
-        <p>Programadora joven y proactiva. Actualmente estudiando Tecnicatura Universitaria en Programación en la Universidad Tecnológica Nacional-Facultad Regional Tucumán. Busco nuevos retos y formar parte de un equipo que me permita crecer y  desarrollar aún más mis conocimientos y habilidades</p>
-        </div>
-        </div>
 
-    <br />
-    <br />
+          <main>
+            
+            <div className="card_main">
+                  <div className="card text-center">
+                    <div className="card-header">
+                      <ul className="nav nav-tabs card-header-tabs">
+                        <li className="nav-item">
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="card-body">
+                      <h1 className="card-title">{alumno.nombre} {alumno.apellido}</h1>
+                      <p className="card-text"> {alumno.estudio}.Tengo {alumno.edad} y  {alumno.familia}. {alumno.hobby}. {alumno.proyecto}</p>
+                      
+                    </div>
+                  </div>
+            </div>
 
-    <h3>Mis Habilidades Técnicas</h3>
+          </main>
+
+          <h3>Mis Habilidades Técnicas</h3>
 
     <ListGroup>
    
@@ -29,18 +42,14 @@ const Main = () => {
         <ListGroup.Item variant="success">Node.Js</ListGroup.Item>
         <ListGroup.Item variant="success">React.Js</ListGroup.Item>
         <ListGroup.Item variant="success">SQL server</ListGroup.Item>
-        <ListGroup.Item variant="success">avaScript</ListGroup.Item>
+        <ListGroup.Item variant="success">JavaScript</ListGroup.Item>
         <ListGroup.Item variant="success">HTML5</ListGroup.Item>
         <ListGroup.Item variant="success">CSS</ListGroup.Item>
         <ListGroup.Item variant="success">Bootstrap</ListGroup.Item>
         <ListGroup.Item variant="success">C#</ListGroup.Item>
       </ListGroup>
-    
-</>
-
+    </>
   )
 }
 
-
-  
 export default Main

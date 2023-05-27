@@ -1,6 +1,6 @@
 div {
     text-align: center;
-    background-color: rgb(202, 162, 240);
+    background-color: rgb(230, 221, 238);
     padding: 3em;
 
 }
@@ -16,4 +16,4 @@ div>p{
 
 }
 
-img { width: 10%;}
+img { width: 20%;}
