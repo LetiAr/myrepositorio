@@ -4,7 +4,7 @@ import Main from '../components/Main'
 import Footer from '../components/Footer'
 import Contacto from './Contacto'
 import imagen from '../assets/imagen.jpg'
-
+import About from '../components/About'
 
 
 export const Home = () => {
@@ -32,6 +32,7 @@ export const Home = () => {
   <Main nombre={nombre} facultad={facultad} lenguajes ={lenguajes} alumno={alumno}/>
   <Footer />
   <Contacto />
+  <About />
   
   
     </>

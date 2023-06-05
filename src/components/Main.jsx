@@ -13,6 +13,7 @@ const Main = ({alumno}) => {
     <>
 
           <main>
+          <h1>¡Bienvenidos a mi mundo!</h1>
             
             <div className="card_main">
                   <div className="card text-center">
@@ -37,16 +38,16 @@ const Main = ({alumno}) => {
     <ListGroup>
    
         
-        <ListGroup.Item variant="success">ApiRest</ListGroup.Item>
-        <ListGroup.Item variant="success">Json Server</ListGroup.Item>
-        <ListGroup.Item variant="success">Node.Js</ListGroup.Item>
-        <ListGroup.Item variant="success">React.Js</ListGroup.Item>
-        <ListGroup.Item variant="success">SQL server</ListGroup.Item>
-        <ListGroup.Item variant="success">JavaScript</ListGroup.Item>
-        <ListGroup.Item variant="success">HTML5</ListGroup.Item>
-        <ListGroup.Item variant="success">CSS</ListGroup.Item>
-        <ListGroup.Item variant="success">Bootstrap</ListGroup.Item>
-        <ListGroup.Item variant="success">C#</ListGroup.Item>
+        <ListGroup.Item variant="danger">ApiRest</ListGroup.Item>
+        <ListGroup.Item variant="danger">Json Server</ListGroup.Item>
+        <ListGroup.Item variant="danger">Node.Js</ListGroup.Item>
+        <ListGroup.Item variant="danger">React.Js</ListGroup.Item>
+        <ListGroup.Item variant="danger">SQL server</ListGroup.Item>
+        <ListGroup.Item variant="danger">JavaScript</ListGroup.Item>
+        <ListGroup.Item variant="danger">HTML5</ListGroup.Item>
+        <ListGroup.Item variant="danger">CSS</ListGroup.Item>
+        <ListGroup.Item variant="danger">Bootstrap</ListGroup.Item>
+        <ListGroup.Item variant="danger">C#</ListGroup.Item>
       </ListGroup>
     </>
   )

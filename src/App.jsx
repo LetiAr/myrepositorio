@@ -1,9 +1,7 @@
 import Home from "./pages/Home"
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-import Contact from "./components/Contact"
-
-
-
+import Contacto from "./pages/Contacto";
+import AboutPage from "./pages/AboutPage"
 
 
 
@@ -14,11 +12,11 @@ export const App = () => {
     <BrowserRouter>
       <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="/components/Contact" element={<Contact/>} />
+            <Route path="/components/Contact" element={<Contacto/>} />
+            <Route path="/components/About" element ={<AboutPage/>}/>
             
       </Routes>
     </BrowserRouter>
-
 
     
   )

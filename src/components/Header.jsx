@@ -14,8 +14,10 @@ const Header = () => {
         <Placeholder xs={12} bg="info" />
 
         <div className='nav'>
-                  <nav className="navbar navbar-light bg-light">
-                  <Link to="/componetes/Contact" className='boton_contacto'>Contacto</Link>
+        <nav>
+                        <Link to="/" className='link'>Home</Link>
+                        <Link to="/componetes/Contact" className='link'>Contact</Link>
+                        <Link to="/componetes/About" className='link'>About</Link>
                   </nav>
 
               </div>
@@ -25,7 +27,7 @@ const Header = () => {
     <br />
     <br />
 
-    <h1>¡Bienvenidos a mi mundo!</h1>
+   
 
     <br /> 
     <br />

@@ -69,18 +69,18 @@ footer{
 }
 
 .card-body{
-  background-color: rgb(229, 155, 229);
+  background-color: rgb(230, 141, 163);
 }
 
 
 .card-text{
   font-size: 20px;
-  color: white;
+  color: rgb(22, 20, 20);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav{
-  background-color: rgb(229, 155, 229);
+  background-color: rgb(230, 141, 163);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -144,7 +144,7 @@ body{
 
 div {
   text-align: center;
-  background-color: rgb(172, 164, 180);
+  background-color: rgb(71, 67, 75);
   padding: 3em;
 
 }
@@ -161,3 +161,28 @@ div>p{
 }
 
 img { width: 20%;}
+
+.img_footer{
+  width: 10%;
+}
+
+.img_about{
+  width: 16%;
+}
+
+.main_about{
+  background-color: rgb(32, 20, 20);
+}
+
+
+.boton_about{
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.img_about1{
+  width: 100%;
+}
+
+  

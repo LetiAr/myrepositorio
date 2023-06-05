@@ -1,6 +1,6 @@
 div {
     text-align: center;
-    background-color: rgb(230, 221, 238);
+    background-color: rgb(222, 200, 226);
     padding: 3em;
 
 }
@@ -17,3 +17,15 @@ div>p{
 }
 
 img { width: 20%;}
+
+.cv {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.label_form { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
